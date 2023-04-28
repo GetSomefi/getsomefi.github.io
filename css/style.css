@@ -30,7 +30,6 @@ img.logo {
     border-radius: 0.2em;
     min-height: 165px;
     aspect-ratio: 16/9;
-    width: 25vh;
     position: relative;
     display: flex;
     justify-content: center;
