@@ -1,0 +1,77 @@
+[
+    {
+        "icons":[
+            {
+                "name":"code",
+                "icon":"code-solid.svg"
+            },
+            {
+                "name":"microchip",
+                "icon":"microchip-solid.svg"
+            },
+            {
+                "name":"lamp",
+                "icon":"lightbulb-ragular.svg"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Ohjelmointi",
+                "name_en":"Programming"
+            },
+            {
+                "name":"Infra",
+                "name_en":"Infra"
+            },
+            {
+                "name":"Web",
+                "name_en":"Web"
+            },
+            {
+                "name":"Palvelumuotoilu",
+                "name_en":"Service design"
+            }
+        ]
+    },
+
+    [
+        {
+            "name":"Ohjelmointi 1",
+            "name_en":"Programming 1",
+            "credit_description":"Laajuus",
+            "credit_description_en":"",
+            "credits":4,
+            "credit_type":"op",
+            "credit_type_en":"crd",
+            "img":"pexels-christina-morillo-coding.jpg",
+            "icons":[0,1],
+            "course_categories":[0]
+        },
+        {
+            "name":"Python",
+            "name_en":"Python",
+            "credit_description":"Laajuus",
+            "credit_description_en":"",
+            "credits":3,
+            "credit_type":"op",
+            "credit_type_en":"crd",
+            "img":"pexels-christina-morillo-coding.jpg",
+            "icons":[0],
+            "course_categories":[0]
+        },
+        {
+            "name":"Web",
+            "name_en":"Web",
+            "credit_description":"Laajuus",
+            "credit_description_en":"",
+            "credits":3,
+            "credit_type":"op",
+            "credit_type_en":"crd",
+            "img":"pexels-christina-morillo-coding.jpg",
+            "icons":[0],
+            "course_categories":[0]
+        }
+    ]
+
+    
+]
