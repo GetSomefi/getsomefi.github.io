@@ -1,25 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helppo elämä</title>
+    <style>
+        .sidebyside{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .example{
+            display: none;
+        }
+        .example-open{
+            display: block;
+        }
+
+        #generated-text-edit, #topic{
+            width: 700px;
+            font-size: 1.4em;
+            padding: 15px;
+            margin-bottom: 30px;
+        }
+        #generated-text-edit{
+            height: 200px;
+        }
+
+        .added-topic{
+            background-color: red;
+            color:#FFF;
+            min-width: 10px;
+            min-height: 10px;
+            display: inline-block;
+        }
+
+        #generated-text > div {
+            position: relative;
+            border: 1px solid;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        button#grade1_action,
+        button#grade2_action,
+        button#grade3_action {
+            position: absolute;
+            top: 0;
+            right: 0;
+            border: none;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
-    <input type="text" placeholder="Anna teksti">
-    <div>
-        <h3>1-2</h3>
-        <p id="grade-1-2"></p>
-    </div>
-    <div>
-        <h3>3-4</h3>
-        <p id="grade-3-4"></p>
-    </div>
-    <div>
-        <h3>5</h3>
-        <p id="grade-5"></p>
-    </div>
+    <button id="update">Päivitä</button><br>
+    <input id="topic" type="text" placeholder="Anna kurssin aihe (esim. tietokanta)"><br>
+
+    <section class="sidebyside">
+        <div id="generated-text">
+            <h2>Luotu teksti</h2>
+            <div>
+                <h3>1-2</h3>
+                <p contenteditable spellcheck="false" id="grade1"></p>
+                <p>Klikkaa luotua tekstiä ja muokkaa kielioppi kuntoon</p>
+                <button id="grade1_action">Kopioi</button>
+            </div>
+            <div>
+                <h3>3-4</h3>
+                <p contenteditable spellcheck="false" id="grade2"></p>
+                <p>Klikkaa luotua tekstiä ja muokkaa kielioppi kuntoon</p>
+                <button id="grade2_action">Kopioi</button>
+            </div>
+            <div>
+                <h3>5</h3>
+                <p contenteditable spellcheck="false" id="grade3"></p>
+                <p>Klikkaa luotua tekstiä ja muokkaa kielioppi kuntoon</p>
+                <button id="grade3_action">Kopioi</button>
+            </div>
+        </div>
+
+        <div id="compare">
+            <h2>Vertailumalli</h2>
+
+            <div id="relaatiotietokanta" class="example example-open">
+                <div>
+                    <h3>1-2</h3>
+                    <p class="compare_grade1">
+                        Opiskelija käyttää yksittäisiä relaatiotietokantoihin liittyviä ammattikäsitteitä, mutta suppeasti ja epätarkasti.<br>
+                        Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa, mutta ilman lähdekritiikkiä.<br>
+                        Opiskelija tunnistaa relaatiotietokantoihin liittyviä kansainvälisiä verkostoja.<br>
+                        Opiskelija tunnistaa aikataulussa pysymisen ja vastuullisuuden merkityksen.<br>
+                        Opiskelija kertoo omasta toiminnastaan.<br>
+                        Opiskelija tunnistaa ja nimeää ammattietiikkaan sekä turvallisuuteen vaikuttavia tekijöitä opiskelemassaan asiassa.<br>
+                        Opiskelija on perehtynyt relaatiotietokantojen peruskäsitteisiin ja etsii niihin liittyvää tietoa. <br>
+                        Opiskelija selittää relaatiotietokantoihin liittyviä asioita.<br>
+                    </p>
+                </div>
+                <div>
+                    <h3>3-4</h3>
+                    <p class="compare_grade2">
+                        Opiskelija käyttää relaatiotietokantoihin liittyviä ammattikäsitteitä pääosin johdonmukaisesti, mutta kaavamaisesti.<br>
+                        Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa niin, että hän osoittaa kykyä lähdekritiikkiin.<br>
+                        Opiskelija hakee tietoa relaatiotietokantoihin liittyvistä kansainvälisistä verkostoista.<br>
+                        Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti.<br> 
+                        Opiskelija muotoilee tavoitteet omalle toiminnalleen ja perustelee niitä.<br>
+                        Opiskelija määrittelee ammattietiikan ja turvallisuuden opiskelemassaan asiassa.<br>
+                        Opiskelija on perehtynyt relaatiotietokantojen tietoperustaan ja selittää sen osa-alueittain.<br> 
+                        Opiskelija etsii relaatiotietokantoihin liittyvää tietoa ja itsenäisesti liittää sitä opintojaksolla opetettuun tietoon.<br> 
+                        Opiskelija selittää, miten relaatiotietokantoihin liittyviä asioita voidaan hyödyntää.<br>
+                    </p>
+                </div>
+                <div>
+                    <h3>5</h3>
+                    <p class="compare_grade3">
+                        Opiskelija käyttää opintojakson relaatiotietokantoihin liittyviä ammattikäsitteitä asiantuntevasti ja johdonmukaisesti.<br>
+                        Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa niin, että hän osoittaa kykyä lähdekritiikkiin.<br> 
+                        Opiskelija perustelee tietolähteiden käytön.<br>
+                        Opiskelija hakee tietoa relaatiotietokantoihin liittyvistä kansainvälisistä verkostoista ja käy niihin liittyvää viestintää.<br>
+                        Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti.<br> 
+                        Opiskelija muotoilee tavoitteet omalle toiminnalleen ja perustella niitä.<br> 
+                        Opiskelija osoittaa kykyä soveltaa oppimaansa eri tilanneyhteyksissä.<br>
+                        Opiskelija määrittelee ammattietiikan ja turvallisuuden opiskelemassaan asiassa.<br> 
+                        Opiskelija antaa havainnollistavia esimerkkejä ammattietiikasta ja turvallisuudesta.<br>
+                        Opiskelija on perehtynyt relaatiotietokantojen tietoperustaan ja selittää sen osa-alueittain.<br> 
+                        Opiskelija etsii relaatietokantoihin liittyvää tietoa ja itsenäisesti liittää sitä opintojaksolla opettuun tietoon.<br> 
+                        Opiskelija selittää, miten relaatiotietokantoihin liittyviä asioita voidaan hyödyntää. Opiskelija soveltaa hankkimaansa tietoa perustellusti.<br>                   
+                    </p>
+                </div>
+            </div>
+
+            <div id="ohjelmointi2" class="example">
+                <div>
+                    <h3>1-2</h3>
+                    <p class="compare_grade1">
+                        Opiskelija aiempaa ohjelmointiosaamistaan hyödyntäen suunnittelee ja toteuttaa valitulla ohjelmointikielellä ohjelmia. <br>
+                        Opiskelija toteuttaa toimivia tai lähes toimivia ohjelmia, mutta valitut työkalut ja ratkaisut eivät ole optimaalisia. <br>
+                        Opiskelija ymmärtää vähintään teoriassa, mitä olio-ohjelmoinnin tekniikoita missäkin tilanteessa tulisi hyödyntää.  <br>
+                        Opiskelija käyttää tietolähteitä, mutta ilman lähdekritiikkiä. <br>
+                        Opiskelija tunnistaa aikataulussa pysymisen ja vastuullisuuden merkityksen. <br>
+                        Opiskelija osaa kertoa omasta toiminnastaan. <br>
+                    </p>
+                </div>
+                <div>
+                    <h3>3-4</h3>
+                    <p class="compare_grade2">
+                        Opiskelija hyödyntää sujuvasti olio-ohjelmoinnille tyypillisiä edistyneempiä ominaisuuksia.<br>
+                        Opiskelija osaa tehdä optimoituja ratkaisuja ja valintoja ohjelmissaan.<br>
+                        Opiskelija käyttää eri tietolähteitä ja kykenee lähdekritiikkiin.<br>
+                        Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti.<br>
+                        Opiskelija osaa muotoilla tavoitteet omalle toiminnalleen ja perustella niitä.<br>
+                    </p>
+                </div>
+                <div>
+                    <h3>5</h3>
+                    <p class="compare_grade3">
+                        Opiskelija pystyy toteuttamaan kaikki hänelle annetut ohjelmointihaasteet käyttäen valittua ohjelmointikieltä.<br>
+                        Opiskelija osaa toteuttaa sovelluksia käyttäen edistyneitä olio-ohjelmoinnin mekanismeja.<br>
+                        Opiskelija käyttää eri tietolähteitä, kykenee lähdekritiikkiin ja perustelee valintansa ja tarjoaa niille vaihtoehtoja.<br>
+                        Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti.<br>
+                        Opiskelija osaa muotoilla tavoitteet omalle toiminnalleen ja perustella niitä.<br>
+                        Opiskelija osoittaa kykyä soveltaa oppimaansa eri tilanneyhteyksissä.<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    
     <script src="./textgenerator.js"></script>
 </body>
 </html>
