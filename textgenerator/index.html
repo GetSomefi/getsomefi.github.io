@@ -5,7 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helppo elämä</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
     <style>
+        body {
+            margin: auto;
+            max-width: 1280px;
+            font-family: 'Poppins', sans-serif;
+        }
         .sidebyside{
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -43,6 +51,9 @@
             padding: 15px;
             margin-bottom: 15px;
         }
+        #grade1,#grade2,#grade3{
+            line-height: 1.2em;
+        }
         button#grade1_action,
         button#grade2_action,
         button#grade3_action {
@@ -50,7 +61,22 @@
             top: 0;
             right: 0;
             border: none;
+            background: black;
+            padding: 5px 10px;
+            color: #FFF;
+        }
+        p.tip {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+            font-size: 0.8em;
+            padding: 5px 10px;
+        }
+        p br {
+            display: block;
             padding: 5px;
+            content: "";
         }
     </style>
 </head>
@@ -64,19 +90,19 @@
             <div>
                 <h3>1-2</h3>
                 <p contenteditable spellcheck="false" id="grade1"></p>
-                <p>Klikkaa luotua tekstiä ja muokkaa kielioppi kuntoon</p>
+                <p class="tip">Klikkaa luotua tekstiä ja muokkaa kielioppi kuntoon</p>
                 <button id="grade1_action">Kopioi</button>
             </div>
             <div>
                 <h3>3-4</h3>
                 <p contenteditable spellcheck="false" id="grade2"></p>
-                <p>Klikkaa luotua tekstiä ja muokkaa kielioppi kuntoon</p>
+                <p class="tip">Klikkaa luotua tekstiä ja muokkaa kielioppi kuntoon</p>
                 <button id="grade2_action">Kopioi</button>
             </div>
             <div>
                 <h3>5</h3>
                 <p contenteditable spellcheck="false" id="grade3"></p>
-                <p>Klikkaa luotua tekstiä ja muokkaa kielioppi kuntoon</p>
+                <p class="tip">Klikkaa luotua tekstiä ja muokkaa kielioppi kuntoon</p>
                 <button id="grade3_action">Kopioi</button>
             </div>
         </div>
