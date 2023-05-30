@@ -6,8 +6,8 @@ async function data() {
 }
 
                             //replace,with,from
-const changeReferences =    (r,w,f) => {
-    const n = "<span class='added-topic'>" +w+"</span>"
+const changeReferences =    (r,w,f,elType,elClass) => {
+    const n = "<" + elType + " class='"+elClass+"'>" +w+"</"+elType+">"
     return f.replace(r,n)
 }
 
@@ -29,23 +29,39 @@ const shuffleArray = (array) => { //thanks to: https://stackoverflow.com/questio
     return array;
 }
 
-const generate = (suffle) => {
+const generate = (command) => {
     data().then((data)=>{
         
         const grades = data[0];
-        console.log(grades);
+        const other = data[1];
+        //console.log(grades);
         for (const key in grades) {
-            console.log(key);
+            //console.log(key);
             const content = grades[key]
             let contentMustHave = content["must_have"]
             document.getElementById(key).innerHTML = ""
 
-            if(suffle){
+            console.log(command);
+            if(command == "suffle"){
                 contentMustHave = shuffleArray(contentMustHave);
             }
 
             for(i=0; i<contentMustHave.length; i++) {
-                const newContent = changeReferences("#", document.getElementById("topic").value,contentMustHave[i])
+                let newContent = changeReferences("#", document.getElementById("topic").value,contentMustHave[i], "span", "added-topic")
+                if(command == "keywords"){
+                    let highlighted = newContent;
+
+                    other["keywords"].forEach(el => {
+                        //console.log(el);
+                        highlighted = changeReferences(el, el, highlighted, "span", "highlighted-keyword")
+                    });
+                    
+                    newContent = highlighted;
+                }
+                
+
+
+
                 document.getElementById(key).innerHTML += newContent + "<br>";
             }        
         }
@@ -53,9 +69,11 @@ const generate = (suffle) => {
 }
 generate()
 
-document.getElementById("update").addEventListener("click",generate)
-document.getElementById("suffle").addEventListener("click",() => generate(true));
+document.getElementById("update").addEventListener("click",generate);
+document.getElementById("suffle").addEventListener("click",() => generate("suffle"));
+document.getElementById("keywords").addEventListener("click",() => generate("keywords"));
 document.getElementById("topic").addEventListener("keyup",generate)
+
 
 const copyToClipboard = (e) => {
     var copyText = document.getElementById(e.target.id.split("_")[0]);

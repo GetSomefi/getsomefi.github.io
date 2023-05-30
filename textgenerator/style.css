@@ -67,3 +67,8 @@ p br {
     padding: 5px;
     content: "";
 }
+
+.highlighted-keyword {
+    border-bottom: 2px solid #8BC34A;
+    display: inline-block;
+}
