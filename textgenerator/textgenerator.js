@@ -69,12 +69,6 @@ const generate = (command) => {
 }
 generate()
 
-document.getElementById("update").addEventListener("click",generate);
-document.getElementById("suffle").addEventListener("click",() => generate("suffle"));
-document.getElementById("keywords").addEventListener("click",() => generate("keywords"));
-document.getElementById("topic").addEventListener("keyup",generate)
-
-
 const copyToClipboard = (e) => {
     var copyText = document.getElementById(e.target.id.split("_")[0]);
     console.log(copyText);
@@ -89,4 +83,33 @@ const copyToClipboard = (e) => {
 for (let i = 1; i <= 3; i++) {
     document.getElementById("grade"+i+"_action").addEventListener("click",copyToClipboard)
 }
+
+const settings = (e,setting) => {
+    /*
+    console.log(e.target.dataset.spellcheck, setting);
+    let val = (e.target.dataset.spellcheck == "true") ? "false" : "true";
+    e.target.dataset.spellcheck = val
+    console.log(val);
+
+    if(setting=="spellcheck"){
+        for (let i = 1; i <= 3; i++) {
+            
+            if(e.target.dataset.spellcheck=="true")
+                document.getElementById("grade"+i).setAttribute("data-ms-editor","true");
+            else
+            document.getElementById("grade"+i).removeAttribute("data-ms-editor");
+        }
+    }
+    */
+} 
+
+
+document.getElementById("update").addEventListener("click",generate);
+document.getElementById("suffle").addEventListener("click",() => generate("suffle"))
+document.getElementById("keywords").addEventListener("click",() => generate("keywords"))
+document.getElementById("topic").addEventListener("keyup",generate)
+
+//document.getElementById("spellcheck").addEventListener("click",(e)=>settings(e,"spellcheck"))
+
+
 

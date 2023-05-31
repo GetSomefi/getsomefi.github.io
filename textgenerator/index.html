@@ -11,9 +11,15 @@
     <link rel="stylesheet" href="style.css?upd=29.5.2023_1">
 </head>
 <body>
+    <p>
+        Helpota hommaa lataamalla MS-kirjoitusavustaja (<a href="https://chrome.google.com/webstore/detail/microsoft-editor-spelling/gpaiobkfhnonedkhhfjpmhdalgeoebfa/related?hl=fi">Chrome</a>).<br>
+        Aseta MS-kirjoitusavustaja asetuksissa "Show synonyms for spelling suggestions" päälle (<a href="chrome-extension://gpaiobkfhnonedkhhfjpmhdalgeoebfa/options.html">Asetukset</a>).
+    </p>
     <button id="update">Päivitä</button>
     <button id="suffle">Sekoita</button>
     <button id="keywords">Näytä avainsanat</button>
+
+    <!--<br><button id="spellcheck" data-spellcheck="true">Kieliopintarkistus</button>-->
     <br>
     <input id="topic" type="text" placeholder="Anna kurssin aihe (esim. tietokanta)"><br>
 
@@ -22,19 +28,19 @@
             <h2>Luotu teksti</h2>
             <div>
                 <h3>1-2</h3>
-                <p contenteditable spellcheck="false" id="grade1"></p>
+                <p contenteditable id="grade1" ></p>
                 <p class="tip">Klikkaa luotua tekstiä ja muokkaa kielioppi kuntoon</p>
                 <button id="grade1_action">Kopioi</button>
             </div>
             <div>
                 <h3>3-4</h3>
-                <p contenteditable spellcheck="false" id="grade2"></p>
+                <p contenteditable id="grade2"></p>
                 <p class="tip">Klikkaa luotua tekstiä ja muokkaa kielioppi kuntoon</p>
                 <button id="grade2_action">Kopioi</button>
             </div>
             <div>
                 <h3>5</h3>
-                <p contenteditable spellcheck="false" id="grade3"></p>
+                <p contenteditable id="grade3"></p>
                 <p class="tip">Klikkaa luotua tekstiä ja muokkaa kielioppi kuntoon</p>
                 <button id="grade3_action">Kopioi</button>
             </div>
