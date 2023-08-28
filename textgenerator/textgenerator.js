@@ -7,7 +7,7 @@ async function data() {
 
                             //replace,with,from
 const changeReferences =    (r,w,f,elType,elClass) => {
-    console.log(w);
+    //console.log(w);
     const n = "<" + elType + " class='"+elClass+"'>" +w+"</"+elType+">"
     return f.replace(r,n)
 }
@@ -30,7 +30,7 @@ const shuffleArray = (array) => { //thanks to: https://stackoverflow.com/questio
     return array;
 }
 
-let stage = "stage"
+let stage = "must_have"
 const generate = (command) => {
     data().then((data)=>{
         //console.log(stage);
@@ -42,15 +42,15 @@ const generate = (command) => {
             //console.log(key);
             const content = grades[key]
 
-            let contentMustHave = content["must_have"]
+            let contentMustHave = content[stage]
             
-            document.getElementById("stage2").classList.remove("selected");
-            document.getElementById("stage3").classList.remove("selected");
+            document.getElementById("must_have2").classList.remove("selected");
+            document.getElementById("must_have3").classList.remove("selected");
 
-            if(command == "stage2"){
+            if(command == "must_have2"){
                 stage = command
                 contentMustHave = content["must_have2"]
-            }else if(command == "stage3"){
+            }else if(command == "must_have3"){
                 stage = command
                 contentMustHave = content["must_have3"]
             }
@@ -126,8 +126,8 @@ const settings = (e,setting) => {
 //document.getElementById("suffle").addEventListener("click",() => generate("suffle"))
 document.getElementById("keywords").addEventListener("click",() => generate("keywords"))
 //document.getElementById("stage").addEventListener("click",() => generate("stage"))
-document.getElementById("stage2").addEventListener("click",() => generate("stage2"))
-document.getElementById("stage3").addEventListener("click",() => generate("stage3"))
+document.getElementById("must_have2").addEventListener("click",() => generate("must_have2"))
+document.getElementById("must_have3").addEventListener("click",() => generate("must_have3"))
 
 document.getElementById("topic").addEventListener("keyup",()=>generate(stage))
 
