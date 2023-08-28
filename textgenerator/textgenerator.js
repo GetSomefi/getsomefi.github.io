@@ -1,7 +1,7 @@
 console.log("jebou");
 
 async function data() {
-    const response = await fetch("../data/generator.json");
+    const response = await fetch("../data/generator.json?upd=28_8_2023_1");
     return response.json();
 }
 
