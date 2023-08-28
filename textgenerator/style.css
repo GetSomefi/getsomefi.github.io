@@ -90,3 +90,12 @@ button.selected {
     background: #b9fcff;
     border: 0px solid;
 }
+
+/*vertailu piiloo*/
+div#compare{
+    display: none;
+}
+section.full-width {
+    max-width: 760px;
+    margin: auto;
+}
