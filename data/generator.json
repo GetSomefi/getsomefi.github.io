@@ -11,6 +11,26 @@
                 "Opiskelija tunnistaa ja nimeää ammattietiikkaan sekä turvallisuuteen vaikuttavia tekijöitä opiskelemassaan asiassa.",
                 "Opiskelija on perehtynyt # peruskäsitteisiin ja etsii niihin liittyvää tietoa.", 
                 "Opiskelija selittää # liittyviä asioita."
+            ],
+            "must_have2":[
+                "2Opiskelija käyttää yksittäisiä # liittyviä ammattikäsitteitä, mutta suppeasti ja epätarkasti.",
+                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa, mutta ilman lähdekritiikkiä.",
+                "Opiskelija tunnistaa # liittyviä kansainvälisiä verkostoja.",
+                "Opiskelija tunnistaa aikataulussa pysymisen ja vastuullisuuden merkityksen.",
+                "Opiskelija kertoo omasta toiminnastaan.",
+                "Opiskelija tunnistaa ja nimeää ammattietiikkaan sekä turvallisuuteen vaikuttavia tekijöitä opiskelemassaan asiassa.",
+                "Opiskelija on perehtynyt # peruskäsitteisiin ja etsii niihin liittyvää tietoa.", 
+                "Opiskelija selittää # liittyviä asioita."
+            ],
+            "must_have3":[
+                "3Opiskelija käyttää yksittäisiä # liittyviä ammattikäsitteitä, mutta suppeasti ja epätarkasti.",
+                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa, mutta ilman lähdekritiikkiä.",
+                "Opiskelija tunnistaa # liittyviä kansainvälisiä verkostoja.",
+                "Opiskelija tunnistaa aikataulussa pysymisen ja vastuullisuuden merkityksen.",
+                "Opiskelija kertoo omasta toiminnastaan.",
+                "Opiskelija tunnistaa ja nimeää ammattietiikkaan sekä turvallisuuteen vaikuttavia tekijöitä opiskelemassaan asiassa.",
+                "Opiskelija on perehtynyt # peruskäsitteisiin ja etsii niihin liittyvää tietoa.", 
+                "Opiskelija selittää # liittyviä asioita."
             ]
         },
         "grade2":{
@@ -26,6 +46,26 @@
                 "Opiskelija on perehtynyt # tietoperustaan ja selittää sen osa-alueittain.",
                 "Opiskelija etsii # liittyvää tietoa ja itsenäisesti liittää sitä opintojaksolla opetettuun tietoon.",
                 "Opiskelija selittää, miten # liittyviä asioita voidaan hyödyntää."
+            ],
+            "must_have2":[
+                "2Opiskelija käyttää yksittäisiä # liittyviä ammattikäsitteitä, mutta suppeasti ja epätarkasti.",
+                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa, mutta ilman lähdekritiikkiä.",
+                "Opiskelija tunnistaa # liittyviä kansainvälisiä verkostoja.",
+                "Opiskelija tunnistaa aikataulussa pysymisen ja vastuullisuuden merkityksen.",
+                "Opiskelija kertoo omasta toiminnastaan.",
+                "Opiskelija tunnistaa ja nimeää ammattietiikkaan sekä turvallisuuteen vaikuttavia tekijöitä opiskelemassaan asiassa.",
+                "Opiskelija on perehtynyt # peruskäsitteisiin ja etsii niihin liittyvää tietoa.", 
+                "Opiskelija selittää # liittyviä asioita."
+            ],
+            "must_have3":[
+                "3Opiskelija käyttää yksittäisiä # liittyviä ammattikäsitteitä, mutta suppeasti ja epätarkasti.",
+                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa, mutta ilman lähdekritiikkiä.",
+                "Opiskelija tunnistaa # liittyviä kansainvälisiä verkostoja.",
+                "Opiskelija tunnistaa aikataulussa pysymisen ja vastuullisuuden merkityksen.",
+                "Opiskelija kertoo omasta toiminnastaan.",
+                "Opiskelija tunnistaa ja nimeää ammattietiikkaan sekä turvallisuuteen vaikuttavia tekijöitä opiskelemassaan asiassa.",
+                "Opiskelija on perehtynyt # peruskäsitteisiin ja etsii niihin liittyvää tietoa.", 
+                "Opiskelija selittää # liittyviä asioita."
             ]
         },
         "grade3":{
@@ -44,6 +84,26 @@
                 "Opiskelija on perehtynyt # tietoperustaan ja selittää sen osa-alueittain.",
                 "Opiskelija etsii # liittyvää tietoa ja itsenäisesti liittää sitä opintojaksolla opittuun tietoon.",
                 "Opiskelija selittää, miten # liittyviä asioita voidaan hyödyntää. Opiskelija soveltaa hankkimaansa tietoa perustellusti."
+            ],
+            "must_have2":[
+                "2Opiskelija käyttää yksittäisiä # liittyviä ammattikäsitteitä, mutta suppeasti ja epätarkasti.",
+                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa, mutta ilman lähdekritiikkiä.",
+                "Opiskelija tunnistaa # liittyviä kansainvälisiä verkostoja.",
+                "Opiskelija tunnistaa aikataulussa pysymisen ja vastuullisuuden merkityksen.",
+                "Opiskelija kertoo omasta toiminnastaan.",
+                "Opiskelija tunnistaa ja nimeää ammattietiikkaan sekä turvallisuuteen vaikuttavia tekijöitä opiskelemassaan asiassa.",
+                "Opiskelija on perehtynyt # peruskäsitteisiin ja etsii niihin liittyvää tietoa.", 
+                "Opiskelija selittää # liittyviä asioita."
+            ],
+            "must_have3":[
+                "3Opiskelija käyttää yksittäisiä # liittyviä ammattikäsitteitä, mutta suppeasti ja epätarkasti.",
+                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa, mutta ilman lähdekritiikkiä.",
+                "Opiskelija tunnistaa # liittyviä kansainvälisiä verkostoja.",
+                "Opiskelija tunnistaa aikataulussa pysymisen ja vastuullisuuden merkityksen.",
+                "Opiskelija kertoo omasta toiminnastaan.",
+                "Opiskelija tunnistaa ja nimeää ammattietiikkaan sekä turvallisuuteen vaikuttavia tekijöitä opiskelemassaan asiassa.",
+                "Opiskelija on perehtynyt # peruskäsitteisiin ja etsii niihin liittyvää tietoa.", 
+                "Opiskelija selittää # liittyviä asioita."
             ]
         }
         

@@ -39,6 +39,13 @@ const generate = (command) => {
             //console.log(key);
             const content = grades[key]
             let contentMustHave = content["must_have"]
+
+            if(command == "stage2"){
+                contentMustHave = content["must_have2"]
+            }else if(command == "stage3"){
+                contentMustHave = content["must_have3"]
+            }
+
             document.getElementById(key).innerHTML = ""
 
             console.log(command);
@@ -107,6 +114,8 @@ const settings = (e,setting) => {
 document.getElementById("update").addEventListener("click",generate);
 document.getElementById("suffle").addEventListener("click",() => generate("suffle"))
 document.getElementById("keywords").addEventListener("click",() => generate("keywords"))
+document.getElementById("stage2").addEventListener("click",() => generate("stage2"))
+document.getElementById("stage3").addEventListener("click",() => generate("stage3"))
 document.getElementById("topic").addEventListener("keyup",generate)
 
 //document.getElementById("spellcheck").addEventListener("click",(e)=>settings(e,"spellcheck"))
