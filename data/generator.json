@@ -10,49 +10,43 @@
                 "Opiskelija kertoo omasta toiminnastaan.",
                 "Opiskelija tunnistaa ja nimeää ammattietiikkaan sekä turvallisuuteen vaikuttavia tekijöitä opiskelemassaan asiassa.",
                 "Opiskelija on perehtynyt # liittyviin peruskäsitteisiin ja etsii niihin liittyvää tietoa.", 
-                "Opiskelija selittää # liittyviä asioita."
+                "Opiskelija osaa selittää # liittyviä asioita."
             ],
             "must_have2":[
-                "Opiskelija käyttää # liittyviä ammattikäsitteitä johdonmukaisesti.",
+                "Opiskelija käyttää # liittyviä ammattikäsitteitä pääosin johdonmukaisesti, mutta kaavamaisesti.",
                 "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa niin, että hän osoittaa kykyä lähdekritiikkiin.",
-                "Opiskelija perustelee tietolähteiden käyttöä.",
                 "Opiskelija osaa hakea tietoa # liittyvistä kansainvälisistä verkostoista.",
-                "Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti. Opiskelija muotoilee tavoitteet omalle toiminnalleen ja perustelee niitä.",
-                "Opiskelija osoittaa kykyä soveltaa oppimaansa eri tilanneyhteyksissä.",
-                "Opiskelija määrittelee ammattietiikan ja turvallisuuden opiskelemassaan asiassa.",
-                "Opiskelija antaa havainnollistavia esimerkkejä ammattietiikasta ja turvallisuudesta.", 
+                "Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti. Opiskelija osaa muotoilla tavoitteet omalle toiminnalleen ja perustella niitä.",
+                "Opiskelija osaa määrittellä ammattietiikan ja turvallisuuden opiskelemassaan asiassa.",
                 "Opiskelija on perehtynyt # liittyvään tietoperustaan ja selittää sen osa-alueittain.",
-                "Opiskelija etsii # liittyvää tietoa ja itsenäisesti liittää sitä opittuun tietoon.",
-                "Opiskelija selittää, miten # liittyviä asioista voidaan hyödyntää.",
-                "Opiskelija soveltaa hankkimaansa tietoa perustellusti."
+                "Opiskelija osaa etsiä # liittyvää tietoa ja itsenäisesti liittää sitä opittuun tietoon.",
+                "Opiskelija osaa selittää, miten # liittyviä asioita voidaan hyödyntää."
             ],
             "must_have3":[
-                "Opiskelija hallitsee # liittyviä käsitteitä kaavamaisesti ja mallien mukaisesti.",
-                "Opiskelija tunnistaa luotettaviksi luokitellut lähteet ja soveltaen hyödyntää lähteiden avulla saavutettua ratkaisua.",
+                "Opiskelija käyttää opintojakson # liittyviä ammattikäsitteitä asiantuntevasti ja johdonmukaisesti.",
+                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa niin, että hän osoittaa kykyä lähdekritiikkiin. Opiskelija perustelee tietolähteiden käytön.",
                 "Opiskelija osaa hakea tietoa # liittyvistä kansainvälisistä verkostoista ja käydä niihin liittyvää viestintää.",
-                "Opiskelija noudattaa annettua aikataulua ja toimii vastuullisesti. Opiskelija osaa muotoilla tavoitteet omalle toiminnalleen ja perustella niitä.",
-                "Opiskelija tunnistaa # liittyvät tavoitteet ja kykenee tunnistamaan tavoitteiden saavuttamisen.",
-                "Opiskelija tunnistaa ammattietiikan vaatimukset ja lähinnä # liittyen opintojakson sisältöön.",
-                "Opiskelija kykenee käsittelemään ammattietiikkaa ja turvallisuutta havainnollistavien esimerkkien avulla."
+                "Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti. Opiskelija osaa muotoilla tavoitteet omalle toiminnalleen ja perustella niitä. Opiskelija osoittaa kykyä soveltaa oppimaansa eri tilanneyhteyksissä.",
+                "Opiskelija määrittelee ammattietiikan ja turvallisuuden opiskelemassaan asiassa. Opiskelija antaa havainnollistavia esimerkkejä ammattietiikasta ja turvallisuudesta.",
+                "Opiskelija on perehtynyt # liittyvään tietoperustaan ja selittää sen osa-alueittain. Opiskelija osaa etsiä # liittyvää tietoa ja itsenäisesti liittää sitä opintojaksolla opittuun tietoon.",
+                "Opiskelija osaa selittää, miten # liittyviä asioita voidaan hyödyntää.",
+                "Opiskelija osaa soveltaa hankkimaansa # liittyvää tietoa perustellusti."
             ]
         },
         "grade2":{
             "value":"3-4",
             "must_have":[
-                "",
                 "Opiskelija käyttää # liittyviä ammattikäsitteitä pääosin johdonmukaisesti, mutta kaavamaisesti.",
                 "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa niin, että hän osoittaa kykyä lähdekritiikkiin.",
-                "Opiskelija hakee tietoa # liittyvistä kansainvälisistä verkostoista.",
+                "Opiskelija osaa hakea tietoa # liittyvistä kansainvälisistä verkostoista.",
                 "Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti. Opiskelija osaa muotoilla tavoitteet omalle toiminnalleen ja perustella niitä.",
-                "Opiskelija muotoilee tavoitteet omalle toiminnalleen ja perustelee niitä.",
-                "Opiskelija määrittelee ammattietiikan ja turvallisuuden opiskelemassaan asiassa.",
+                "Opiskelija osaa määrittellä ammattietiikan ja turvallisuuden opiskelemassaan asiassa.",
                 "Opiskelija on perehtynyt # liittyvään tietoperustaan ja selittää sen osa-alueittain.",
-                "Opiskelija etsii # liittyvää tietoa ja itsenäisesti liittää sitä opintojaksolla opetettuun tietoon.",
-                "Opiskelija selittää, miten # liittyviä asioita voidaan hyödyntää."
+                "Opiskelija osaa etsiä # liittyvää tietoa ja itsenäisesti liittää sitä opittuun tietoon.",
+                "Opiskelija osaa selittää, miten # liittyviä asioita voidaan hyödyntää."
             ],
             "must_have2":[
-                "Opiskelija käyttää # liittyviä ammattikäsitteitä asiantuntevasti ja johdonmukaisesti.",
-                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa niin, että hän osoittaa kykyä lähdekritiikkiin.",
+                "Opiskelija käyttää # liittyviä ammattikäsitteitä asiantuntevasti ja johdonmukaisesti. Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa niin, että hän osoittaa kykyä lähdekritiikkiin.",
                 "Opiskelija perustelee tietolähteiden käytön ja vertailee niitä.",
                 "Opiskelija osaa hakea tietoa # liittyvistä kansainvälisistä verkostoista ja käydä niihin liittyvää viestintää.",
                 "Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti",
@@ -66,57 +60,47 @@
                 "Opiskelija soveltaa ja vertailee hankkimaansa tietoa perustellusti."
             ],
             "must_have3":[
-                "Opiskelija hallitsee # liittyviä käsitteitä asiantuntevasti ja analysoivasti.",
-                "Opiskelija hallitsee # liittyvän tiedon hakemisen, havaitsee tiedossa olevat virheet ja suhtautuu kriittisesti lähteen sisällön oikeellisuuteen.",
+                "Opiskelija käyttää # liittyviä ammattikäsitteitä asiantuntevasti, johdonmukaisesti ja analysoivasti. Opiskelija laajentaa # ammattikäsitteistöä laajempaan kontekstiin.",
+                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa niin, että hän osoittaa kykyä lähdekritiikkiin. Opiskelija perustelee tietolähteiden käytön ja vertailee ja ehdottaa niitä.",
                 "Opiskelija osaa hakea tietoa # liittyvistä kansainvälisistä verkostoista ja käydä niihin liittyvää viestintää organisoidusti.",
-                "Opiskelija tunnistaa tiedonlähteen merkityksen arvioitaessa tiedon hyödynnettävyyttä ja sovellettavuutta.",
-                "Opiskelija tunnistaa käytettävissä olevat luotettaviksi luokitellut lähteet ja hallitsee niiden sisältöjen vertailun.", 
-                "Opiskelijalla on valmiudet käydä keskustelua verkostoissa ja hallita käytyä keskustelua.",
-                "Opiskelija kykenee käsittelemään ammattietiikkaa ja turvallisuutta havainnollistavien esimerkkien avulla."
+                "Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti. Opiskelija muotoilee tavoitteet omalle toiminnalleen ja perustelee niitä. Opiskelija osoittaa kykyä kehittää toimintaansa eri tilanneyhteyksissä.",
+                "Opiskelija määrittelee ammattietiikan ja turvallisuuden opiskelemassaan asiassa. Opiskelija antaa havainnollistavia esimerkkejä ammattietiikasta ja turvallisuudesta sekä luokittelee ne osa-alueittain.",
+                "Opiskelija on perehtynyt # liittyvään tietoperustaan ja selittää ja erottelee sen osa-alueittain. Opiskelija osaa etsiä # liittyvää tietoa ja itsenäisesti luokittelee ja liittää sitä opittuun tietoon.",
+                "Opiskelija osaa selittää, miten # liittyviä asioita voidaan organisoidusti hyödyntää.",
+                "Opiskelija osaa soveltaa ja vertailla hankkimaansa # liittyvää tietoa perustellusti."
             ]
         },
         "grade3":{
             "value":"5",
             "must_have":[
                 "Opiskelija käyttää opintojakson # liittyviä ammattikäsitteitä asiantuntevasti ja johdonmukaisesti.",
-                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa niin, että hän osoittaa kykyä lähdekritiikkiin.",
-                "Opiskelija perustelee tietolähteiden käytön.",
+                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa niin, että hän osoittaa kykyä lähdekritiikkiin. Opiskelija perustelee tietolähteiden käytön.",
                 "Opiskelija osaa hakea tietoa # liittyvistä kansainvälisistä verkostoista ja käydä niihin liittyvää viestintää.",
-                "Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti.",
-                "Opiskelija muotoilee tavoitteet omalle toiminnalleen ja perustella niitä.",
-                "Opiskelija osoittaa kykyä soveltaa oppimaansa eri tilanneyhteyksissä.",
-                "Opiskelija määrittelee ammattietiikan ja turvallisuuden opiskelemassaan asiassa.",
-                "Opiskelija antaa havainnollistavia esimerkkejä ammattietiikasta ja turvallisuudesta.",
-                "Opiskelija on perehtynyt # liittyvään tietoperustaan ja selittää sen osa-alueittain.",
-                "Opiskelija etsii # liittyvää tietoa ja itsenäisesti liittää sitä opintojaksolla opittuun tietoon.",
-                "Opiskelija selittää, miten # liittyviä asioita voidaan hyödyntää. Opiskelija soveltaa hankkimaansa tietoa perustellusti."
+                "Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti. Opiskelija osaa muotoilla tavoitteet omalle toiminnalleen ja perustella niitä. Opiskelija osoittaa kykyä soveltaa oppimaansa eri tilanneyhteyksissä.",
+                "Opiskelija määrittelee ammattietiikan ja turvallisuuden opiskelemassaan asiassa. Opiskelija antaa havainnollistavia esimerkkejä ammattietiikasta ja turvallisuudesta.",
+                "Opiskelija on perehtynyt # liittyvään tietoperustaan ja selittää sen osa-alueittain. Opiskelija osaa etsiä # liittyvää tietoa ja itsenäisesti liittää sitä opintojaksolla opittuun tietoon.",
+                "Opiskelija osaa selittää, miten # liittyviä asioita voidaan hyödyntää.",
+                "Opiskelija osaa soveltaa hankkimaansa # liittyvää tietoa perustellusti."
             ],
             "must_have2":[
-                "Opiskelija käyttää # liittyviä ammattikäsitteitä asiantuntevasti, johdonmukaisesti ja analysoivasti.",
-                "Opiskelija laajentaa substanssialan ammattikäsitteistöä laajempaan kontekstiin.",
-                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa niin, että hän osoittaa kykyä lähdekritiikkiin.",
-                "Opiskelija perustelee tietolähteiden käytön ja vertailee ja ehdottaa niitä.",
+                "Opiskelija käyttää # liittyviä ammattikäsitteitä asiantuntevasti, johdonmukaisesti ja analysoivasti. Opiskelija laajentaa # ammattikäsitteistöä laajempaan kontekstiin.",
+                "Opiskelija osoittaa kykyä erottaa arkitiedon tutkitusta tiedosta ja etsii itsenäisesti lisätietoa niin, että hän osoittaa kykyä lähdekritiikkiin. Opiskelija perustelee tietolähteiden käytön ja vertailee ja ehdottaa niitä.",
                 "Opiskelija osaa hakea tietoa # liittyvistä kansainvälisistä verkostoista ja käydä niihin liittyvää viestintää organisoidusti.",
-                "Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti.",
-                "Opiskelija muotoilee tavoitteet omalle toiminnalleen ja perustelee niitä.",
-                "Opiskelija osoittaa kykyä kehittää toimintaansa eri tilanneyhteyksissä.",
-                "Opiskelija määrittelee ammattietiikan ja turvallisuuden opiskelemassaan asiassa.",
-                "Opiskelija antaa havainnollistavia esimerkkejä ammattietiikasta ja turvallisuudesta sekä luokittelee ne osa-alueittain.",
-                "Opiskelija on perehtynyt # liittyvään tietoperustaan ja selittää ja erottelee sen osa-alueittain.", 
-                "Opiskelija etsii # liittyvää tietoa ja itsenäisesti luokittelee ja liittää sitä opittuun tietoon.",
-                "Opiskelija selittää, miten # liittyviä asioita voidaan suunnitelmallisesti hyödyntää.",
-                "Opiskelija kehittää # liittyviä asioita tai niihin liittyvää toimintaa."
+                "Opiskelija pysyy annetussa aikataulussa ja toimii vastuullisesti. Opiskelija muotoilee tavoitteet omalle toiminnalleen ja perustelee niitä. Opiskelija osoittaa kykyä kehittää toimintaansa eri tilanneyhteyksissä.",
+                "Opiskelija määrittelee ammattietiikan ja turvallisuuden opiskelemassaan asiassa. Opiskelija antaa havainnollistavia esimerkkejä ammattietiikasta ja turvallisuudesta sekä luokittelee ne osa-alueittain.",
+                "Opiskelija on perehtynyt # liittyvään tietoperustaan ja selittää ja erottelee sen osa-alueittain. Opiskelija osaa etsiä # liittyvää tietoa ja itsenäisesti luokittelee ja liittää sitä opittuun tietoon.",
+                "Opiskelija osaa selittää, miten # liittyviä asioita voidaan organisoidusti hyödyntää.",
+                "Opiskelija osaa soveltaa ja vertailla hankkimaansa # liittyvää tietoa perustellusti."
             ],
             "must_have3":[
                 "Opiskelija hallitsee # liittyviä käsitteitä asiantuntevasti, johdonmukaisesti ja analysoivasti. Opiskelija laajentaa # liittyvää ammattikäsitteistöä laajempaan kontekstiin.",
                 "Opiskelija osoittaa kykyä lähdekriittiseen tiedon hakuun ja havaitsee tiedossa olevat virheet.",
                 "Opiskelija osaa hakea tietoa # liittyvistä kansainvälisistä verkostoista ja käydä niihin liittyvää viestintää organisoidusti ja kehittävästi.",
-                "Opiskelija tunnistaa tiedonlähteen merkityksen arvioitaessa tiedon hyödynnettävyyttä ja sovellettavuutta.", 
-                "Opiskelija tunnistaa käytettävissä olevat luotettaviksi luokitellut lähteet ja hallitsee niiden sisältöjen vertailun.", 
-                "Opiskelija osaa perustellusti ja soveltaen hyödyntää lähteiden avulla saavutettua ratkaisua.",
-                "Opiskelijalla on valmiudet käydä keskustelua kansainvälisissä verkostoissa organisoidusti ja kehittävästi.",
-                "Opiskelija kykenee toimimaan vastuullisesti annetun aikataulun mukaisesti. Opiskelijalla on kyky soveltaa ja täydentää hankittua osaamistaan vaihtelevissa tilanteissa.",
-                "Opiskelija tunnistaa ammattietiikan vaatimukset ja kykenee käsittelemään # liittyviä ammattieettisiä aiheita havainnollistavien esimerkkien avulla."
+                "Opiskelija noudattaa annettua aikataulua ja toimii vastuullisesti. Opiskelija osaa muotoilla tavoitteet omalle toiminnalleen ja perustella niitä. Opiskelijalla on kyky soveltaa ja täydentää hankittua osaamistaan vaihtelevissa tilanteissa.",
+                "Opiskelija tunnistaa ammattietiikan vaatimukset ja kykenee käsittelemään # liittyviä ammattieettisiä aiheita havainnollistavien esimerkkien avulla.", 
+                "Opiskelija on perehtynyt # liittyvään tietoperustaan ja osaa selittää ja erotella sen osa-alueittain. Opiskelija osaa etsiä # liittyvää tietoa ja itsenäisesti luokitella ja liittää sitä opittuun tietoon.",
+                "Opiskelija osaa selittää, miten # liittyviä asioita voidaan suunnitelmallisesti hyödyntää.",
+                "Opiskelija osaa kehittää # liittyviä asioita tain niihin liittyvää toimintaa"
             ]
         }
         
