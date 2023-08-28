@@ -7,6 +7,7 @@ async function data() {
 
                             //replace,with,from
 const changeReferences =    (r,w,f,elType,elClass) => {
+    console.log(w);
     const n = "<" + elType + " class='"+elClass+"'>" +w+"</"+elType+">"
     return f.replace(r,n)
 }
@@ -29,26 +30,36 @@ const shuffleArray = (array) => { //thanks to: https://stackoverflow.com/questio
     return array;
 }
 
+let stage = "stage"
 const generate = (command) => {
     data().then((data)=>{
-        
+        //console.log(stage);
+
         const grades = data[0];
         const other = data[1];
         //console.log(grades);
         for (const key in grades) {
             //console.log(key);
             const content = grades[key]
+
             let contentMustHave = content["must_have"]
+            
+            document.getElementById("stage2").classList.remove("selected");
+            document.getElementById("stage3").classList.remove("selected");
 
             if(command == "stage2"){
+                stage = command
                 contentMustHave = content["must_have2"]
             }else if(command == "stage3"){
+                stage = command
                 contentMustHave = content["must_have3"]
             }
 
+            document.getElementById(stage).classList.add("selected");
+
             document.getElementById(key).innerHTML = ""
 
-            console.log(command);
+            //console.log(command);
             if(command == "suffle"){
                 contentMustHave = shuffleArray(contentMustHave);
             }
@@ -74,11 +85,11 @@ const generate = (command) => {
         }
     })
 }
-generate()
+generate(stage)
 
 const copyToClipboard = (e) => {
     var copyText = document.getElementById(e.target.id.split("_")[0]);
-    console.log(copyText);
+    //console.log(copyText);
 
     let text =  copyText.innerText;
     let safeCopy = text.replaceAll(/<\/?[^>]+(>|$)/gi, "");
@@ -111,12 +122,14 @@ const settings = (e,setting) => {
 } 
 
 
-document.getElementById("update").addEventListener("click",generate);
-document.getElementById("suffle").addEventListener("click",() => generate("suffle"))
+//document.getElementById("update").addEventListener("click",generate);
+//document.getElementById("suffle").addEventListener("click",() => generate("suffle"))
 document.getElementById("keywords").addEventListener("click",() => generate("keywords"))
+//document.getElementById("stage").addEventListener("click",() => generate("stage"))
 document.getElementById("stage2").addEventListener("click",() => generate("stage2"))
 document.getElementById("stage3").addEventListener("click",() => generate("stage3"))
-document.getElementById("topic").addEventListener("keyup",generate)
+
+document.getElementById("topic").addEventListener("keyup",()=>generate(stage))
 
 //document.getElementById("spellcheck").addEventListener("click",(e)=>settings(e,"spellcheck"))
 

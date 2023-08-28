@@ -85,3 +85,8 @@ button[data-spellcheck="false"]:after {
 button[data-spellcheck="false"]:after{
     background-color: rgb(255, 78, 78);
 }
+
+button.selected {
+    background: #b9fcff;
+    border: 0px solid;
+}
