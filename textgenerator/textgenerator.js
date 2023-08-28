@@ -9,7 +9,7 @@ async function data() {
 const changeReferences =    (r,w,f,elType,elClass) => {
     //console.log(w);
     const n = "<" + elType + " class='"+elClass+"'>" +w+"</"+elType+">"
-    return f.replace(r,n)
+    return f.replaceAll(r,n)
 }
 
 const shuffleArray = (array) => { //thanks to: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array

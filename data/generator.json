@@ -67,7 +67,7 @@
                 "Opiskelija soveltaa ja vertailee hankkimaansa tietoa perustellusti."
             ],
             "must_have3":[
-                "Opiskelija hallitsee # hallintaan liittyviä käsitteitä asiantuntemuksella analysoivasti.",
+                "Opiskelija hallitsee # liittyviä käsitteitä asiantuntemuksella analysoivasti.",
                 "Opiskelija hallitsee # liittyvän tiedon hakemisen, havaitsee tiedossa olevat virheet ja suhtautuu kriittisesti lähteen sisällön oikeellisuuteen.",
                 "Opiskelija tunnistaa tiedonlähteen merkityksen arvioitaessa tiedon hyödynnettävyyttä ja sovellettavuutta.",
                 "Opiskelija tunnistaa käytettävissä olevat luotettaviksi luokitellut lähteet ja hallitsee niiden sisältöjen vertailun.", 
@@ -109,16 +109,14 @@
                 "Opiskelija kehittää # liittyviä asioita tai niihin liittyvää toimintaa."
             ],
             "must_have3":[
-                "Opiskelija hallitsee # käsitteitä asiantuntemuksella asiantuntevasti, johdonmukaisesti ja analysoivasti.",
-                "Opiskelija laajentaa # ammattikäsitteistöä laajempaan kontekstiin.",
-                "Opiskelija hallitsee # liittyvän tiedon hakemisen, havaitsee tiedossa olevat virheet ja suhtautuu kriittisesti lähteen sisällön oikeellisuuteen.",
+                "Opiskelija hallitsee # käsitteitä asiantuntemuksella asiantuntevasti, johdonmukaisesti ja analysoivasti. Opiskelija laajentaa # ammattikäsitteistöä laajempaan kontekstiin.",
+                "Opiskelija osoittaa kykyä # liittyvän tiedon hakemisen, havaitsee tiedossa olevat virheet ja suhtautuu kriittisesti lähteen sisällön oikeellisuuteen.",
                 "Opiskelija tunnistaa tiedonlähteen merkityksen arvioitaessa tiedon hyödynnettävyyttä ja sovellettavuutta.", 
                 "Opiskelija tunnistaa käytettävissä olevat luotettaviksi luokitellut lähteet ja hallitsee niiden sisältöjen vertailun.", 
                 "Opiskelija osaa perustellusti ja soveltaen hyödyntää lähteiden avulla saavutettua ratkaisua.",
-                "Opiskelijalla on valmiudet käydä keskustelua verkostoissa ja hallita käytyä keskustelua.",
-                "Opiskelija kykenee muodostamaan # kehittämiseen liittyvän aikataulun ja kykenee toteuttamaan sovitun toiminnallisuuden aikataulun mukaisesti.", 
-                "Opiskelijalla on kyky soveltaa ja täydentää hankittua osaamistaan vaihtelevissa tilanteissa.",
-                "Opiskelija tunnistaa ammattietiikan vaatimukset ja kykenee käsittelemään ammattietiikkaa ja # havainnollistavien esimerkkien avulla."
+                "Opiskelijalla on valmiudet käydä keskustelua kansainvälisissä verkostoissa organisoidusti ja kehittävästi.",
+                "Opiskelija kykenee toimimaan vastuullisesti annetun aikataulun mukaisesti. Opiskelijalla on kyky soveltaa ja täydentää hankittua osaamistaan vaihtelevissa tilanteissa.",
+                "Opiskelija tunnistaa ammattietiikan vaatimukset ja kykenee käsittelemään # liityviä ammattieettisiä aiheita havainnollistavien esimerkkien avulla.",
             ]
         }
         
@@ -128,10 +126,10 @@
         "keywords":[
             "käyttää", "tunnistaa", "hyödyntää", "pysyy", "osoittaa", "osoittaa kykyä", "on perehtynyt", "hakee tietoa",
             "muotoilee", "määrittelee", "etsii", "selittää",
-            "tulkita", "antaa esimerkki", "tehdä yhteenveto", "päätellä", "muotoilla uudelleen",  "raportoida", "luokitella", "erotella", "muokata", "selittää", "kääntää",
-            "toteuttaa", "suorittaa", "käyttää", "soveltaa", "ratkaista", "esitellä", "valmistaa", "selittää kuinka", "valita", "laskea", "muuttaa", "rakentaa",
-            "vertailla", "organisoida", "osoittaa ristiriita", "erotella", "jakaa", "tutkia", "luokitella", "analysoida", "arvioida", "todistaa",
-            "suunnitella", "rakentaa", "tuottaa", "ehdottaa", "kehittää", "keksiä", "johtaa", "laajentaa", "muuttaa"
+            "tulkita", "antaa esimerkki", "tehdä yhteenveto", "päätellä", "muotoilla uudelleen",  "raportoida", "luokitella", "erotella", "muokata", "kääntää",
+            "toteuttaa", "suorittaa", "soveltaa", "ratkaista", "esitellä", "valmistaa", "selittää kuinka", "valita", "laskea", "muuttaa", "rakentaa",
+            "vertailla", "organisoida", "osoittaa ristiriita", "jakaa", "tutkia", "analysoida", "arvioida", "todistaa",
+            "suunnitella", "tuottaa", "ehdottaa", "kehittää", "keksiä", "johtaa", "laajentaa"
         ],
         "dontuse":[
             "osaa", "test"
